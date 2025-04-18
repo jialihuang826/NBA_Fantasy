@@ -42,10 +42,41 @@ Trains and evaluates the injury risk model using tree-based methods.
 
 ---
 
+### 4. `DBSCAN.ipynb`
+- Implements **DBSCAN clustering** using NBA player on-court performance and bio data
+- Covers seasons from **2019 to 2024**.
+- Visualizes natural clusters of player performance patterns.
+
+---
+
+### 5. `Risk Tier Profiling.ipynb`
+- Calculates a **risk score** for each player based on five SHAP-identified key features.
+- Uses **standardized scores** and statistical thresholds to classify players into:
+  - **High Risk**
+  - **Medium Risk**
+  - **Low Risk**
+- Output risk tiers are used in the Streamlit dashboard.
+
+---
+### 6. `Streamlit_Project_Fantasy_Basketball_Risk_Profiling.py`
+- Builds an **interactive Streamlit dashboard** to display player risk tiers.
+- Based on **2024-25 season data** (as of April 4, 2025).
+- Enables filtering by player, team, and position.
+
+---
+
+## 📊 Key Technologies
+- Python (pandas, scikit-learn, SHAP, Xgboost, Streamlit, Seborn, Numpy)
+- Clustering: **DBSCAN**
+- Modeling & Predicton:**XGboost**
+- Visualization: **Streamlit**
+- Data: NBA player performance & bio data (2019–2025)
+
+
 ## Data Sources
 
 - [NBA API](https://github.com/swar/nba_api) – Official player stats (basic + advanced)
-- [Spotrac Injury Report (2024)]([https://www.spotrac.com/nba/injured](https://www.spotrac.com/nba/injured/_/year/2024)) – Games missed due to injury
+- [Spotrac Injury Report (2024)](https://www.spotrac.com/nba/injured/_/year/2024) – Games missed due to injury
 
 ---
 
@@ -61,6 +92,14 @@ While R² is modest, the model highlights patterns in player styles and workload
 
 ---
 
+# 🚀 Live Dashboard
+
+👉 Explore the dashboard here:  
+**[NBA Fantasy Injury Risk Dashboard](https://nbafantasy-lcddcz9dxmxunjfop42qn8.streamlit.app/)**
+
+
+---
+
 ## Future Improvements
 
 - Integrate time series-based injury status and physical attribute data
@@ -71,5 +110,9 @@ While R² is modest, the model highlights patterns in player styles and workload
 ## License
 
 This project is for academic/research purposes only. Data is sourced from public APIs.
+
+---
+## ✍️ Author
+Created by ** Jialee Huang, Zac Sheng Yuan** | 2025 Apr  
 
 ---
