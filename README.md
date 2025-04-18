@@ -45,7 +45,7 @@ Trains and evaluates the injury risk model using tree-based methods.
 ## Data Sources
 
 - [NBA API](https://github.com/swar/nba_api) – Official player stats (basic + advanced)
-- [Spotrac Injury Report (2024)](https://www.spotrac.com/nba/injured/_/year/2024) – Games missed due to injury
+- [Spotrac Injury Report (2024)](https://www.spotrac.com/nba/injured) – Games missed due to injury
 
 ---
 
