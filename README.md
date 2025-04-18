@@ -42,14 +42,14 @@ Trains and evaluates the injury risk model using tree-based methods.
 
 ---
 
-## 📊 Data Sources
+## Data Sources
 
 - [NBA API](https://github.com/swar/nba_api) – Official player stats (basic + advanced)
 - [Spotrac Injury Report (2024)](https://www.spotrac.com/nba/injured/_/year/2024) – Games missed due to injury
 
 ---
 
-## 📈 Model Results
+## Model Results
 
 | Metric | Value |
 |--------|-------|
@@ -61,14 +61,14 @@ While R² is modest, the model highlights patterns in player styles and workload
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 - Integrate time series-based injury status and biometric data
 - Apply classification models (e.g., High Risk vs. Low Risk)
 
 ---
 
-## 📄 License
+## License
 
 This project is for academic/research purposes only. Data is sourced from public APIs.
 
