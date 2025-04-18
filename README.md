@@ -63,7 +63,7 @@ While R² is modest, the model highlights patterns in player styles and workload
 
 ## Future Improvements
 
-- Integrate time series-based injury status and biometric data
+- Integrate time series-based injury status and physical attribute data
 - Apply classification models (e.g., High Risk vs. Low Risk)
 
 ---
