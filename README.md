@@ -88,7 +88,7 @@ Trains and evaluates the injury risk model using tree-based methods.
 | MAE    | 8.8   |
 | R²     | 0.15  |
 
-While R² is modest, the model highlights patterns in player styles and workload that strongly correlate with injury risk, particularly useful for Fantasy Basketball draft strategies.
+While R² is modest (total game per season is 82), the model highlights patterns in player styles and workload that strongly correlate with injury risk, particularly useful for Fantasy Basketball draft strategies.
 
 ---
 
